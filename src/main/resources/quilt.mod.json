@@ -8,8 +8,8 @@
 			"name": "Polonium",
 			"description": "Polonium is a FPS-boosting client for the Quilt modloader..",
 			"contributors": {
-				"Ultimax": "Owner",
-				"Gurkan": "Co-Owner"
+				"Gurkan": "Project Lead",
+				"Ultimax": "Developer"
 			},
 			"contact": {
 				"issues": "https://github.com/gurkz-oss/polonium/issues",
