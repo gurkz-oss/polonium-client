@@ -13,4 +13,4 @@ Open this project on intellij and let it do its thing then run task genSourcewit
 |                                                                                   | Author  | Role         | Links                                                                                |
 | --------------------------------------------------------------------------------- | :------ | :----------- | :----------------------------------------------------------------------------------- |
 | ![thatgurkangurk's Avatar](https://avatars.githubusercontent.com/u/82083756?s=32) | gurkan  | Project Lead | [Contributions](https://github.com/gurkz-oss/polonium/commits?author=thatgurkangurk) |
-| ![ultimax's Avatar]()                                                             | Ultimax | Developer    | [Contributions](https://github.com/gurkz-oss/polonium/commits?author=UltimaxGG)      |
+| ![ultimax's Avatar](https://avatars.githubusercontent.com/u/116093952?s=32)       | Ultimax | Developer    | [Contributions](https://github.com/gurkz-oss/polonium/commits?author=UltimaxGG)      |
