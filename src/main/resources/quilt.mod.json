@@ -1,12 +1,12 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "me.gurkz.client",
+		"group": "me.gurkz.polonium",
 		"id": "polonium",
 		"version": "${version}",
 		"metadata": {
 			"name": "Polonium",
-			"description": "Polonium is a open source fps boosting client based on quilt mod loader.",
+			"description": "Polonium is a FPS-boosting client for the Quilt modloader..",
 			"contributors": {
 				"Ultimax": "Owner",
 				"Gurkan": "Co-Owner"
@@ -21,7 +21,7 @@
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
 			"client_init": [
-				"me.gurkz.client.polonium.client.PoloniumClient"
+				"me.gurkz.polonium.client.PoloniumClient"
 			]
 		},
 		"depends": [

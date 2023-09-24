@@ -1,4 +1,4 @@
-package me.gurkz.client.polonium.client;
+package me.gurkz.polonium.client;
 
 import org.quiltmc.loader.api.ModContainer;
 import org.quiltmc.qsl.base.api.entrypoint.client.ClientModInitializer;
