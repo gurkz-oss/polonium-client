@@ -1,0 +1,42 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "me.gurkz.polonium",
+		"id": "polonium",
+		"version": "${version}",
+		"metadata": {
+			"name": "Polonium",
+			"description": "Polonium is a FPS-boosting client for the Quilt modloader..",
+			"contributors": {
+				"Gurkan": "Project Lead",
+				"Ultimax": "Developer"
+			},
+			"contact": {
+				"issues": "https://github.com/gurkz-oss/polonium/issues",
+				"sources": "https://github.com/gurkz-oss/polonium/"
+			},
+			"icon": "assets/polonium/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"client_init": [
+				"me.gurkz.polonium.client.PoloniumClient"
+			]
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.2"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=7.0.2"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.20"
+			}
+		]
+	},
+	"mixin": "polonium.mixins.json"
+}
