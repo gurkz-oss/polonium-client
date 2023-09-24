@@ -51,7 +51,9 @@ dependencies {
 
 	// QSL is not a complete API; You will need Quilted Fabric API to fill in the gaps.
 	// Quilted Fabric API will automatically pull in the correct QSL version.
-	modImplementation(libs.qfapi)
+	modImplementation(libs.qfapi) {
+		exclude(group = "org.quiltmc.quilted-fabric-api", module = "fabric-gametest-api-v1")
+	}
 	// modImplementation(libs.bundles.qfapi) // If you wish to use the deprecated Fabric API modules
 }
 
