@@ -2,7 +2,7 @@
 
 ### how do I contribute?
 
-[read CONTRIBUTIONS.md for instructions on how to contribute](CONTRIBUTIONS.md)
+[read CONTRIBUTIONS.md for instructions on how to contribute](https://github.com/gurkz-oss/gurkz-oss-meta/blob/main/CONTRIBUTIONS.md)
 
 ### How to setup project
 
