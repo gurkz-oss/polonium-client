@@ -66,7 +66,7 @@ dependencies {
 	modImplementation(libs.qfapi) {
 		exclude(group = "org.quiltmc.quilted-fabric-api", module = "fabric-gametest-api-v1")
 	}
-	modLocalRuntime("maven.modrinth:sodium:mc1.20.2-0.5.3")
+	modLocalRuntime("maven.modrinth:sodium:mc1.20.1-0.5.3")
 	// modImplementation(libs.bundles.qfapi) // If you wish to use the deprecated Fabric API modules
 }
 
