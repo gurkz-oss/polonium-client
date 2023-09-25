@@ -2,6 +2,7 @@
 @file:Suppress("DSL_SCOPE_VIOLATION", "MISSING_DEPENDENCY_CLASS", "FUNCTION_CALL_EXPECTED", "PropertyName")
 
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import java.net.URI
 
 plugins {
 	java
@@ -24,6 +25,17 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+	exclusiveContent {
+		forRepository {
+			maven {
+				name = "Modrinth"
+				url = URI.create("https://api.modrinth.com/maven")
+			}
+		}
+		filter {
+			includeGroup("maven.modrinth")
+		}
+	}
 }
 
 // All the dependencies are declared at gradle/libs.version.toml and referenced with "libs.<id>"
@@ -54,6 +66,7 @@ dependencies {
 	modImplementation(libs.qfapi) {
 		exclude(group = "org.quiltmc.quilted-fabric-api", module = "fabric-gametest-api-v1")
 	}
+	modLocalRuntime("maven.modrinth:sodium:mc1.20.2-0.5.3")
 	// modImplementation(libs.bundles.qfapi) // If you wish to use the deprecated Fabric API modules
 }
 
