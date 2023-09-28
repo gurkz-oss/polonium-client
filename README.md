@@ -4,10 +4,6 @@
 
 [read CONTRIBUTIONS.md for instructions on how to contribute](https://github.com/gurkz-oss/gurkz-oss-meta/blob/main/CONTRIBUTIONS.md)
 
-### How to setup project
-
-Open this project on intellij and let it do its thing then run task genSourcewithVineFlower ONLY
-
 ### developers
 
 |                                                                                   | Author  | Role         | Links                                                                                |
