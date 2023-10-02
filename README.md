@@ -1,5 +1,8 @@
 # polonium
 
+## ⚠️ Project maintenance status ⚠️
+This project is not maintained anymore. Here be dragons.
+
 ### how do I contribute?
 
 [read CONTRIBUTIONS.md for instructions on how to contribute](https://github.com/gurkz-oss/gurkz-oss-meta/blob/main/CONTRIBUTIONS.md)
